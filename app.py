@@ -6,7 +6,7 @@ def home():
     return jsonify({
         'message': 'Hello from Flask on EC2 - Version 2!',
         'status': 'running'
-    })
+    }
 
 @app.route('/health')
 def health():
