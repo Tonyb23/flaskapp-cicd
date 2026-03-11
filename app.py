@@ -18,7 +18,7 @@ def add(a, b):
     return jsonify({
         'a': a,
         'b': b,
-        'result': a - b
+        'result': a + b
     })
 
 @app.route('/subtract/<int:a>/<int:b>')
